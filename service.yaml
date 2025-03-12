@@ -10,4 +10,4 @@ spec:
       port: 80       # External access port
       targetPort: 3000  # Port inside the container
       nodePort: 30008
-  type: nodePort
+  type: NodePort
